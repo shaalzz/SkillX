@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, useAuth } from './context/AuthContext';
+import { AuthProvider, useAuth } from './context/AuthContext.jsx';
 import { AvatarProvider } from './context/AvatarContext';
 import { ThemeProvider } from './context/ThemeContext';
 import Layout from './components/Layout';
